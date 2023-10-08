@@ -1,0 +1,23 @@
+.TextArea {
+	background-color: var(--background-color-400);
+	color: var(--text-color);
+
+	flex-grow: 1;
+	width: 100%;
+
+	padding: 1rem;
+
+	outline: 0;
+	border: 0;
+
+	resize: none;
+
+	font-size: large;
+}
+
+.TextArea:focus {
+	outline-width: 1px;
+	outline-color: var(--text-color);
+	outline-style: solid;
+	shape-outside: margin-box;
+}

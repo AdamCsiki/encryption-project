@@ -1,0 +1,13 @@
+.Select {
+	color: var(--text-color);
+	background-color: var(--background-color-500);
+
+	font-size: large;
+
+	outline: none;
+	border: none;
+}
+
+.Select:focus {
+	outline: 1px solid var(--text-color);
+}

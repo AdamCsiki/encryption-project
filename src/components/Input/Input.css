@@ -1,0 +1,23 @@
+.Input {
+	background-color: var(--background-color-400);
+	color: var(--text-color);
+
+	max-height: 1.5rem;
+	width: 100%;
+	max-width: 35vw;
+	flex-grow: 1;
+
+	padding: 1rem;
+
+	font-size: medium;
+
+	outline: none;
+	border: none;
+}
+
+.Input:focus {
+	outline-width: 1px;
+	outline-color: var(--text-color);
+	outline-style: solid;
+	shape-outside: margin-box;
+}

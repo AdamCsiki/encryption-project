@@ -1,0 +1,44 @@
+.Header {
+	background-color: var(--background-color-200);
+
+	height: var(--header-height);
+	min-height: fit-content;
+
+	padding: var(--padding);
+
+	flex-grow: 1;
+	width: 100vw;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.logo {
+	color: var(--text-color);
+
+	transform: scale(1);
+
+	transition: 0.3s;
+
+	position: relative;
+}
+
+.logo:hover {
+	color: var(--text-color);
+
+	transform: scale(1.1);
+
+	transition: 0.3s;
+}
+
+.header-link-container {
+}

@@ -1,0 +1,11 @@
+.FileInput {
+	color: var(--text-color);
+
+	width: 100%;
+
+	display: flex;
+	justify-self: center;
+	align-self: center;
+
+	font-size: large;
+}

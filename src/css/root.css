@@ -1,0 +1,14 @@
+:root {
+	--background-color-100: #152d51;
+	--background-color-200: #122644;
+	--background-color-300: #0e1e36;
+	--background-color-400: #0a1628;
+	--background-color-500: #070f1b;
+
+	--text-color: #ffffffaa;
+	--main-color: #d35242;
+
+	--header-height: 5rem;
+	--padding: 1.5rem;
+	--margin: 1.5rem;
+}
